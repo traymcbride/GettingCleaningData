@@ -27,6 +27,6 @@
 
 9. The first line of the file -- the header -- contains the names of all of the variables.  The rest of the records consist of 180 observations on 68 variables, with 6 observations per each of the 30 subjects.  The 6 observations per subject are on the recorded activities, such as walking.  Averages of selected mean and standard deviation variables related to each activity are provided.
 
-10. For detailed information on the raw data, how the script transformed the raw data, and descriptions of the output variables, please refer to CodeBook.Rmd.
+10. For detailed information on the raw data, how the script transformed the raw data, and descriptions of the output variables, please refer to CodeBook.md.
 
 
