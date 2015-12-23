@@ -23,7 +23,7 @@
 
 7. All of the intermediate data frames are available for review in the environment once the script has finished.
 
-8. The output file created by the script, HumanMovementMeanSummary.txt, is a comma delimited text file with with a header and one observation per line.  Is is created using the final data frame, tidy_data. 
+8. The output file created by the script, HumanMovementMeanSummary.txt, is a comma delimited text file with a header and one observation per line.  Is is created using the final data frame, tidy_data. 
 
 9. The first line of the file -- the header -- contains the names of all of the variables.  The rest of the records consist of 180 observations on 68 variables, with 6 observations per each of the 30 subjects.  The 6 observations per subject are on the recorded activities, such as walking.  Averages of selected mean and standard deviation variables related to each activity are provided.
 

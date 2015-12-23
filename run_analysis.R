@@ -83,8 +83,8 @@ names(x_test) <- make.names(columns)
 test_data <- cbind(subject_test,y_test,x_test)
 
 #####################################################
-#Combine the test data, using some of our work above,
-#and in the same spirit.
+#Combine the training data, using some of our
+#work above, and in the same spirit.
 #####################################################
 y_train <- inner_join(y_train,activities,by="ActivityNumber")
 x_train <- select(x_train,desired_indices)
