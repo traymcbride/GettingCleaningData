@@ -11,7 +11,8 @@ library(dplyr)
 library(data.table)
 
 #####################################################
-#Read in all of the relevant raw data 
+#Read in all of the relevant raw data.  It is 
+#assumed it is in the present working directory.
 #####################################################
 
 features <- read.table("features.txt",header=FALSE,stringsAsFactors = FALSE)
@@ -131,7 +132,7 @@ tidy_data <- summarize_each(all_data,funs(mean))
 names(tidy_data) <-make.names(gsub("Mean","AvgMean",names(tidy_data)))
 names(tidy_data) <-make.names(gsub("Std","AvgStd",names(tidy_data)))
 
-#Write out the data.  The row names are not meaningful, so we drop them.
-#I chose comma delimited data since I find it easier to read.
+#Write out the data to the working directory.  The row names are not meaningful, 
+#so we drop them.  I chose comma delimited data since I find it easier to read.
 
 write.table(tidy_data,file="HumanMovementMeanSummary.txt",sep=",",row.names=FALSE)
