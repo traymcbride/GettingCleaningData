@@ -1,6 +1,6 @@
 #Analysis Script High-Level Overview
 
-1. All of the work, from reading in the data to writing out the final tidy data set is done in one script, **run_analysis.R**.  It accomplishes steps 1 through 5 of the course project's instructions.  The script is fully commented.
+1. All of the work, from reading in the data to writing out the final tidy data set is done in one script, **run_analysis.R**.  It can be sourced directly from the command line.  It accomplishes steps 1 through 5 of the course project's instructions.  The script is fully commented.
 
 2. The script requires the user to have the dplyr and data.table packages available.  It will make calls to library() to load them.
 
