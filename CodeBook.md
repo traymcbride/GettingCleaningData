@@ -60,7 +60,7 @@ None of the numerical values in the original data were altered while assembling 
 
 10. tidy_data was created by first grouping all_data by Subject and ActivityName, and then applying summarize_each to calculate the averages.   The variable names were altered in tidy_data by inserting Avg before each of Mean and Std.  The dimensions are 180 x 68.
 
-11. tidy_data was written out, along with a header containing the variable names, to the comma delimited file HumanMovementMeanSummary.txt.  The file contains 181 lines with
+11. tidy_data was written out, along with a header containing the variable names, to the comma delimited file HumanMovementMeanSummary.txt.  The file contains 181 lines, with
 the data for the 180 observations on 68 variables beginning on line 2.
  
 ##Dataset Variables
@@ -91,7 +91,7 @@ the data for the 180 observations on 68 variables beginning on line 2.
 
 * The variables that begin with *t* refer to time.  An example is tBodyAccAvgMeanX.
 
-* The variables that begin with *f* represent frequencies.  An example is fBodyAccAvgMeanX in our dataset.  The raw data's variables were obtained from a Fast Fourier Transform method applied to selected time variables within the raw data.  
+* The variables that begin with *f* represent frequencies.  An example is fBodyAccAvgMeanX in our dataset.  The raw data's frequency variables were obtained from a Fast Fourier Transform method applied to selected time variables within the raw data.  
 
 * Variables with Mag in their names reflect magnitudes calculated using the Euclidean norm.  An example is fBodyAccMagAvgMean in our dataset.
 
