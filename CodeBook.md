@@ -15,9 +15,7 @@ Our dataset **HumanMovementMeanSummary.txt** provides summary statistics for eac
 
 Our comma delimited dataset has 68 variables and 180 observations, with 66 of the variables containing the summary statistics already mentioned plus subject and activity variables for each observation.  There are 6 distinct activity observations for each of the 30 subjects in the study. The 6 activities are LAYING, SITTING, STANDING, WALKING, WALKING DOWNSTAIRS, and WALKING UPSTAIRS.  The data is sorted by subject, and within subject by activity.   The first row of the dataset is a header containing all of the variable names.
 
-[//]: (Insert a view of the tidy data)
-
-A snapshot of the first few subjects and the first five variables:
+A snapshot of the first few subjects and the first five variables within R:
 
 ![image](tidy_data.png) 
 
